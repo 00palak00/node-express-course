@@ -1,6 +1,6 @@
 const { createReadStream } = require('fs')
 
-// default 64kb
+// default buffer size 64kb
 // last buffer - remainder
 // highWaterMark - control size
 // const stream = createReadStream('./content/big.txt', { highWaterMark: 90000 })
